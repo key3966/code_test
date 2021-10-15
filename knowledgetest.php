@@ -272,16 +272,18 @@ function testAddition1() {
     return $var1 + $var2 + $var3;
 }
 
+
 // Consider this Function
 function testDefaultInput1($var1, $var2 = 4) {
     $result = $var1 + $var2;
     return $result;
 }
-// What is the output of this function
-$x = 5; $y = 6;
-testDefaultInput1($x,$y);
 // What is the output of this function?
-testDefaultInput1(2);
+$x = 5; $y = 6;
+$value1 = testDefaultInput1($x,$y);
+// -----------
+$value2 = testDefaultInput1(2);
+// -----------
 
 // What is the output of this function?
 function testSubstring1() {
