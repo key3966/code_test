@@ -83,7 +83,7 @@ echo "\n";
 
 
 // -------------------------------------------------------------------------------------
-// Parse JSON input, return
+// Parse JSON input, return the External ID from the json
 function parseJsonSimple() {
     // Fill this function in
 }
@@ -93,7 +93,7 @@ echo "\n";
 
 
 // -------------------------------------------------------------------------------------
-// Parse JSON input, return
+// Parse JSON input, return array of items with the Name and Quantity from the order_items
 function parseJsonAndLoop() {
     // Fill this function in
 }

@@ -279,9 +279,9 @@ function testDefaultInput1($var1, $var2 = 4) {
 }
 // What is the output of this function
 $x = 5; $y = 6;
-testFunction2($x,$y);
-// What is the output of this funtion?
-testFunction2(2);
+testDefaultInput1($x,$y);
+// What is the output of this function?
+testDefaultInput1(2);
 
 // What is the output of this function?
 function testSubstring1() {
