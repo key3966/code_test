@@ -1,2 +1,8 @@
 #PHPStorm
 .idea/
+
+#docker-volums
+volumes/
+
+#vendor files
+src/vendor
