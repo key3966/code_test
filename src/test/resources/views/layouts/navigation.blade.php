@@ -15,6 +15,15 @@
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-nav-link>
+                    <x-nav-link :href="route('person.index')" :active="request()->routeIs('person.*')">
+                        {{ __('Person') }}
+                    </x-nav-link>
+                    <x-nav-link :href="route('api1')" :active="request()->routeIs('api1')">
+                        {{ __('API 1') }}
+                    </x-nav-link>
+                    <x-nav-link :href="route('api2')" :active="request()->routeIs('api2')">
+                        {{ __('API 2') }}
+                    </x-nav-link>
                 </div>
             </div>
 
@@ -65,6 +74,15 @@
         <div class="pt-2 pb-3 space-y-1">
             <x-responsive-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                 {{ __('Dashboard') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('person.index')" :active="request()->routeIs('person.*')">
+                {{ __('Person') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('api1')" :active="request()->routeIs('api1')">
+                {{ __('API 1') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('api2')" :active="request()->routeIs('api2')">
+                {{ __('API 2') }}
             </x-responsive-nav-link>
         </div>
 
