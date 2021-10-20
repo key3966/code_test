@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Http;
 
 class ApiController extends Controller
 {
-    // Todo: Fix this function
+    // Todo: Fix this function. Return appropriate values and Order Items by ID from Smallest to Largest
     public function testApi1()
     {
         $response = Http::get('https://qiita.com/api/v2/items?page=1&per_page=30');
@@ -17,7 +17,7 @@ class ApiController extends Controller
         return view('api.first',['headers' => $headers, 'items' => $items]);
     }
 
-    // Todo: Fix this function
+    // Todo: Fix this function. Return First 50 Results for the Query: javascript. Order the results by Like Count from Greatest to Least
     public function testApi2()
     {
         $url = 'https://qiita.com/api/v2/items';
