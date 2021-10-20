@@ -50,6 +50,6 @@ class Person extends Model
         $name = $this->name;
         $age = age();
         $occupation = $this["occupatio"];
-        // return "Hi, my name is " + $name + ". I am " + $age + " years old" + ($this->age > 18 : "and I work as a ".$occupation".": ".");
+        // return "Hi, my name is " + $name + ". I am " + $age + " years old" + ($this->age > 17 : " and I work as a ".$occupation".": ".");
     }
 }

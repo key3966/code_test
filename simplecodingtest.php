@@ -14,10 +14,10 @@ echo "\n";
 function stringBuilder() {
     // Fill this function in
 }
-$string1 = "ALEX";
-$string2 = "27";
-$string3 = "software engineer";
-echo "Hi, my name is Alex. I am 27 and my job is a software engineer." === stringBuilder($string1,$string2,$string3);
+$name = "ALEX";
+$age = "27";
+$jobtitle = "software engineer";
+echo "Hi, my name is Alex. I am 27 and my job is a software engineer." === stringBuilder($name,$age,$jobtitle);
 echo "\n";
 
 
@@ -32,8 +32,8 @@ $array = [
     ["id" => 3, "title" => "War Paint for Men"],
     ["id" => 4, "title" => "Invisibobble"]
 ];
-$formatted = "Shops:1
------------
+$formatted = "Shop Count: 4
+-------------
 1 | Tangle Teezer
 2 | Bubo Japan
 3 | War Paint for Men
@@ -44,7 +44,7 @@ echo "\n";
 
 // -------------------------------------------------------------------------------------
 // Looped Update, Loop through and sum costs of all items with flag = true
-function loopedUpdate() {
+function loopedAggregator() {
     // Fill this function in
 }
 $array = [
@@ -53,7 +53,7 @@ $array = [
     ["flag" => false, "item_name" => "ticket", "cost" => 500],
     ["flag" => true, "item_name" => "sticker", "cost" => 10]
 ];
-echo 543 === loopedUpdate($array);
+echo 543 === loopedAggregator($array);
 echo "\n";
 
 
@@ -76,9 +76,9 @@ echo "\n";
 function validateLoop() {
     // Fill this function in
 }
-echo true === validateInput([4, 2, 1, 10]);
+echo true === validateLoop([4, 2, 1, 10]);
 echo "\n";
-echo false === validateInput([5, 6, -1, 8810]);
+echo false === validateLoop([5, 6, -1, 8810]);
 echo "\n";
 
 
