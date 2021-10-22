@@ -2,6 +2,7 @@
 
 // If Statement Section
 // What is the return for this function?
+// testIfStatement1()から返ってくる値は？
 function testIfStatement1() {
     $boolean = true;
 
@@ -13,6 +14,7 @@ function testIfStatement1() {
 }
 
 // What is returned value of this function?
+// testIfStatement2()から返ってくる値は？
 function testIfStatement2() {
     $value1 = true;
 
@@ -36,6 +38,7 @@ function testIfStatement2() {
 }
 
 // Which of the values is returned from this function?
+// testIfStatement3()から返ってくる値は？
 function testIfStatement3() {
     $bool = false;
     $name = "John Smith";
@@ -52,6 +55,7 @@ function testIfStatement3() {
 }
 
 // Which Value is returned from this function?
+// testIfStatement4()から返ってくる値は？
 function testIfStatement4() {
     $name1 = "John Smith";
     $name2 = "Jane Doe";
@@ -70,6 +74,7 @@ function testIfStatement4() {
 }
 
 // What value is returned from this function
+// testIfStatement5()から返ってくる値は？
 function testIfStatement5() {
     $return = [];
 
@@ -103,6 +108,7 @@ function testIfStatement5() {
 }
 
 // What is the value of number at the end of this function?
+// testIfStatement6()から返ってくる値は？
 function testIfStatement6() {
     $number = 10;
 
@@ -136,6 +142,7 @@ function testIfStatement6() {
 }
 
 // Which value is returned from this function?
+// testIfStatement7()から返ってくる値は？
 function testIfStatement7() {
     $condition1 = [1,2,3,4,5];
 
@@ -143,7 +150,9 @@ function testIfStatement7() {
 }
 
 // What expression would return true from this Function?
+// どのような「if文」であれば true を返すか？
 // What expression would return false from this Function?
+// どのような「if文」であれば false を返すか？
 function testIfStatement8() {
     $number1 = 1;
     $number2 = 2;
@@ -157,6 +166,7 @@ function testIfStatement8() {
 
 // Loop Section
 // What is the value of number at the end of this?
+// testLoop1()から返ってくる値は？
 function testLoop1() {
     $number = 0;
 
@@ -169,6 +179,7 @@ function testLoop1() {
 
 // What does the totals array look like?
 // How many items does the totals array contain?
+// testLoop2()から返ってくる値は？
 function testLoop2() {
     $totals = [];
 
@@ -192,6 +203,7 @@ function testLoop2() {
 }
 
 // What is the Output of this function?
+// testLoop3()から返ってくる値は？
 function testLoop3() {
     $output = "";
     $string = "PhpStorm";
@@ -204,7 +216,9 @@ function testLoop3() {
 }
 
 // What is the Output of this function?
+// testLoop4()から返ってくる値は？
 // What is the value of "gender" of the item with the "unique_id" = 3?
+// "unique_id" が "3" の "gender" の値は？
 function testLoop4() {
     $output = [];
 
@@ -233,10 +247,12 @@ function testLoop4() {
         array_push($output,$temp);
     }
 
+    
     return $output;
 }
 
 // What value is returned by this function
+// testLoop5()から返ってくる値は？
 function testLoop5() {
     $array = array(3, 2, 5, 7, 9);
 
@@ -247,6 +263,7 @@ function testLoop5() {
 }
 
 // What value of number returned by this function
+// testLoop6()から返ってくる値は？
 function testLoop6() {
     $flag = true;
     $number = 0;
@@ -264,6 +281,7 @@ function testLoop6() {
 
 // Misc. Section
 // What is the output of this function?
+// testAddition1()から返ってくる値は？
 function testAddition1() {
     $var1 = 1;
     $var2 = 2;
@@ -279,6 +297,7 @@ function testDefaultInput1($var1, $var2 = 4) {
     return $result;
 }
 // What is the output of this function?
+// testDefaultInput1()を使用した、$value1、$value2それぞれの値は？
 $x = 5; $y = 6;
 $value1 = testDefaultInput1($x,$y);
 // -----------
@@ -286,13 +305,16 @@ $value2 = testDefaultInput1(2);
 // -----------
 
 // What is the output of this function?
+// testSubstring1()から返ってくる値は？
 function testSubstring1() {
     $string = "HereIs aLo/ng.String";
     return substr($string, 2, 15);
 }
 
 // Please return 554 from this function. What should value be set to in order to return 554?
+// testReturnCorrectValue1()が返す値を 554 にするにはどうしたら良いか。
 // Please return "Bursting Red" From this function. What should value be set to in order to return "Bursting Red"?
+// testReturnCorrectValue1()が返す値を "Bursting Red" にするにはどうしたら良いか。
 function testReturnCorrectValue1() {
     $order = [
         "id" => 1,
