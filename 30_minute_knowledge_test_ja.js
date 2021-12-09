@@ -80,7 +80,7 @@ function testIfStatement2()
 /**
  * 3. testIfStatement3() において、真偽値を返すためには var2 の値をどのようにすればよいでしょうか。
  * 4. testIfStatement3()で、文字列値「false」を返すためには、var2の値をどうすればよいでしょうか？
- * 5. testIfStatement3() において、var2 が array(1, "1.0", 1.0, "1") に等しい場合、boolean 値 false を返すためには、else if 分岐にどのような文を挿入すればよいですか?
+ * 5. testIfStatement3() において、var2 が [1, "1.0", 1.0, "1"] に等しい場合、boolean 値 false を返すためには、else if 分岐にどのような文を挿入すればよいですか?
  */
 function testIfStatement3() {
     const var1 = 1;
@@ -214,7 +214,7 @@ function testLoop4() {
  * 14. testArrayIndexing1()が返す値を "Bursting Red" にするにはどうしたら良いか。
  */
 function testArrayIndexing1() {
-    $order = {
+    const order = {
         "id": 1,
         "customer_id": 554,
         "orderitems": {
