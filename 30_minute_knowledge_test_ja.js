@@ -127,7 +127,7 @@ function testTerneryOperatorStatement2() {
 }
 
 /**
- * 8. testLoop1()から返ってくる値は？
+ * 8. testLoop1()から返ってくる$totals変数の、配列要素の数は？
  * 9. testLoop1()から返ってくるtotals変数の配列の中身はどれか？
  */
 function testLoop1() {
